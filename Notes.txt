@@ -3,6 +3,12 @@ WARNING - you MUST delete your cluster when finished.
 
 eksctl delete cluster fleetman
 
+## check and make sure that below is deleted:
+- EC2
+- EKS cluster
+- ELB
+- Volumes
+
 
 1: Install eksctl
 ------------------
