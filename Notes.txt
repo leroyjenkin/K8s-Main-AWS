@@ -84,10 +84,9 @@ eksctl create cluster --name fleetman --nodes-min=3
 
 
 
+FOR THE APP TO DEPLOY WITH MONGO PV, BELOW IS NEEDED:
 
 
-
-NOT SURE IF NEEDED
 
 Step 1:
 
