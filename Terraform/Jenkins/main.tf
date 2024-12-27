@@ -61,6 +61,9 @@ resource "aws_instance" "jenkins_server" {
     curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
     unzip awscliv2.zip
     sudo ./aws/install
+
+    # Install git
+    yum install -y git
   EOF
 
   tags = {
